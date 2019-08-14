@@ -12,12 +12,10 @@ pub fn generate_i64(min: i64, max: i64) -> i64 {
 }
 
 mod test {
-    use super::generate_i64;
-
     #[test]
     fn test_generate_i64() {
         for _ in 0..1000 {
-            let result = generate_i64(0, 100);
+            let result = super::generate_i64(0, 100);
             assert!(result >= 0);
             assert!(result < 100);
         }
