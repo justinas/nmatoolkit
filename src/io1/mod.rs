@@ -1,3 +1,6 @@
+//! Input/output utilities without proper error handling.
+//! Functions return empty values on error.
+
 use std::io::stdin;
 
 pub fn read_line() -> String {

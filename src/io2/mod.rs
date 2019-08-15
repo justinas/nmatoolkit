@@ -1,3 +1,6 @@
+//! Input/output utilities with `Option`-based error handling.
+//! Functions return `None` on error.
+
 use std::io::stdin;
 
 pub fn read_line() -> Option<String> {

@@ -1,3 +1,6 @@
+//! Input/output utilities with proper `Result`-based error handling.
+//! Functions propagate the errors from Rust standard library.
+
 use std::error::Error;
 use std::io;
 use std::io::stdin;
