@@ -1,5 +1,7 @@
 [package]
 name = "nmatoolkit"
+description = "A toolkit of utilities for students of NMA Rust workshop."
+license = "MIT"
 version = "0.1.0"
 authors = ["Justinas Stankevicius <justinas@justinas.org>"]
 edition = "2018"
